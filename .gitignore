@@ -1,8 +1,13 @@
-# Ignore data and models
+# Ignore the huge data folder
 data/
-models/
+*.csv
 
-# Ignore python system files
+# Ignore virtual environment (thousands of small files)
 venv/
+env/
+.env
+
+# Ignore system files
 __pycache__/
-*.pkl
+*.pyc
+.DS_Store
